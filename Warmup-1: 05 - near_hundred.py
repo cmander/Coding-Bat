@@ -7,8 +7,3 @@ def near_hundred(n):
         return True
     else:
         return False
-
-print(near_hundred(98))
-print(near_hundred(100))
-print(near_hundred(109))
-print(near_hundred(120))

@@ -5,7 +5,3 @@ def parrot_trouble(talking, hour):
         return True
     else:
         return False
-
-print(parrot_trouble(True, 4))
-print(parrot_trouble(False, 4))
-print(parrot_trouble(True, 19))

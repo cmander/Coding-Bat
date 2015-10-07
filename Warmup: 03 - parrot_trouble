@@ -1,0 +1,11 @@
+# CODING BAT > Warmup-1 > parrot_trouble
+
+def parrot_trouble(talking, hour):
+    if talking == True and (hour < 7 or hour > 20):
+        return True
+    else:
+        return False
+
+print(parrot_trouble(True, 4))
+print(parrot_trouble(False, 4))
+print(parrot_trouble(True, 19))

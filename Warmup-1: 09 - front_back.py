@@ -8,7 +8,3 @@ def front_back(string):
         else:
             new_string = new_string + string[i]
     return new_string + string[0]
-
-print(front_back("rachel"))
-print(front_back("watermelon"))
-        

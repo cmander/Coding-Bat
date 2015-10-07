@@ -9,7 +9,3 @@ def front3(string):
         for i in range(3):
             new_string = new_string + string[i]
     return new_string * 3
-
-print(front3("Vegeta"))
-print(front3("Kakarot"))
-print(front3("Na"))

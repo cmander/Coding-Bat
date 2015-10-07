@@ -5,7 +5,3 @@ def makes10(a, b):
         return True
     else:
         return False
-
-print(makes10(10, 2))
-print(makes10(6, 7))
-print(makes10(6, 4))

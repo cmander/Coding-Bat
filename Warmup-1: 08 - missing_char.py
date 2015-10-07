@@ -11,5 +11,3 @@ def missing_char(string, n):
             else:
                 new_string = new_string + string[i]
     return new_string
-
-print(missing_char("poop", 3))

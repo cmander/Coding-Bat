@@ -4,8 +4,4 @@ def not_string(string):
     if len(string) >= 3 and string[:3] == "not":
         return string
     else:
-        return "not " + string    
-
-print(not_string("apples"))
-print(not_string("not oranges"))
-print(not_string("bananas"))
+        return "not " + string  
